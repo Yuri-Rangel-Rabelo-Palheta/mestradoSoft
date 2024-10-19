@@ -1,0 +1,20 @@
+Descrição detalhada no PDF
+
+
+O documento sugere a criação de um modelo que implemente o padrão State de projeto, com base nos seguintes requisitos:
+
+Requisitos da Tarefa:
+Modelo de Classes: Criar um modelo de classes utilizando o padrão State, considerando a transição entre os estados modelados.
+Métodos e Atributos: Incluir métodos e atributos adicionais especificados no DTE (Documento de Especificação Técnica).
+Implementação em Linguagem OO: Implementar o código utilizando a linguagem orientada a objetos de sua preferência.
+Teste de Troca de Estados: Escrever um código que teste a troca dos estados e exiba resultados na tela através de I/O simples.
+Conformidade com o Padrão State: Seguir rigorosamente as orientações apresentadas no padrão State conforme definido pela Gang of Four (GoF).
+Abordagem para Solução:
+1. Modelo de Classes
+O padrão State envolve a criação de uma classe de contexto e uma interface ou classe abstrata para os estados, além de múltiplas implementações dessa interface que representam os diferentes estados possíveis.
+
+Exemplo:
+
+Contexto (Context): A classe que muda seu comportamento conforme seu estado.
+Interface Estado (State): Define os métodos que serão implementados por todos os estados.
+Estados Concretos: Cada estado implementa a interface State e define o comportamento específico.
